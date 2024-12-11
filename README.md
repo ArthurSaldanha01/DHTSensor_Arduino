@@ -30,9 +30,20 @@ void setup() {
 }
 
 void loop() {
-  Serial.print("Temperature (°C): ");
+  Serial.print("Temperature (\u00B0C): ");
   Serial.println(ambiente.getTemperature());
   Serial.print("Humidity (%): ");
   Serial.println(ambiente.getHumidity());
   delay(2000);
 }
+```
+
+## Dependencies
+This library depends on the DHTlib library. To install it:
+
+1. Open the Arduino IDE.
+2. Navigate to **Sketch > Include Library > Manage Libraries**.
+3. Search for **DHTlib** and click **Install**.
+
+## License
+This library is open-source and licensed under the MIT License. Feel free to use, modify, and distribute it.
