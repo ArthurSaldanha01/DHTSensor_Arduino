@@ -1,0 +1,8 @@
+name=DHTSensor
+version=1.0.0
+author=Arthur Saldanha <arthursaldanha17@gmail.com>
+sentence=A library for reading temperature and humidity using the DHT22 sensor.
+paragraph=Provides a simple API to read temperature and humidity data from DHT22 sensors for Arduino projects.
+category=Sensors
+url=https://github.com/ArthurSaldanha01/DHTSensor_Arduino
+architectures=*
